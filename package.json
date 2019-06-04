@@ -1,0 +1,28 @@
+{
+  "author": "Gines Sanz Sanchis",
+  "name": "hippocrates",
+  "version": "1.0.0",
+  "description": "Personal assistant with hotword detection for Node.js using Snowboy by Kitt.ai. and google speech api",
+  "license": "ISC",
+  "keywords": [],
+  "main": "index.js",
+  "files": [
+    ""
+  ],
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "hotwordwrapper": "^1.0.1",
+    "mic": "^2.1.2",
+    "nan": "^2.14.0",
+    "snowboy": "^1.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0"
+  }
+}
